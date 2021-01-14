@@ -1,3 +1,4 @@
+var robot=require("robotjs");
 var id=setInterval(showMouseLocation,100);
 function showMouseLocation(){
     var mouse=robot.getMousePos();
